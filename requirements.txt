@@ -1,1 +1,2 @@
-django
+django==3.2.0
+xhtml2pdf==0.2.7
