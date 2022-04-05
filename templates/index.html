@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gprojukti pdf</title>
+    <style>
+        *{
+	margin: 0px;
+	padding: 0;
+	font-family: 'Lato', sans-serif;
+    -webkit-print-color-adjust: exact !important;
+}
+.container{
+	width: 100%;
+	margin: 0 auto;
+}
+.row{
+	width: 100%
+}
+.products-data{
+    padding: 10px 2px; 
+    font-weight: 500; 
+    border-bottom: 1px solid #000;
+}
+table {
+    border-spacing: 0px;
+}
+.company-information{
+    padding: 1% 0% 0% 0%;
+}
+/* company information css*/
+.company-information table{}
+.company-information table tr{}
+.company-information table th{}
+.company-information table th .company-description{text-align: left;}
+.company-information table th .company-description .company-details{padding: 11px 0;}
+.company-information table th .company-description .company-details h4{font-weight: 600; padding: 5px 0;}
+/* company information end*/
+.inoice-title{font-size: 35px; text-transform: uppercase;  padding-top: 10px;}
+/* customer information start*/
+.order-information{padding: 30px 0px 10px 0px;}
+.order-information .customer-details{}
+.order-information .customer-details h4{font-weight: 600; padding: 5px 0;}
+.order-information .customer-details span{font-weight: 500;}
+.order-information .order-details h4{font-weight: 600; padding: 5px 0;}
+.order-information .order-details span{font-weight: 500;}
+/* customer information end*/
+.item-list-lg{width: 40%; padding: 10px 2px;}
+.item-list-sm{
+    width: 12%; padding: 10px 2px; text-align: center;
+}
+/* products section css start*/
+.products-details{}
+.products-details .item-price-box{}
+.products-details .item-price-box .note-box{
+    text-align: left;
+    vertical-align: top;
+}
+.products-details .item-price-box .note-box h4 {
+    padding-top: 40px;
+}
+.products-details .item-price-box .note-box p {
+    font-size: 16px;
+    font-weight: 400;
+    padding: 10px;
+    border: 1px solid #d6d6d6;
+    margin: 10px 151px 10px 0;
+}
+.products-details .item-price-box .item-price-total-box{
+    vertical-align: top;
+    padding-top: 30px;
+}
+.products-details .item-price-box .item-price-total-box .price-box{
+    text-align: left;
+    border-bottom: 1px solid #d6d6d6;
+    padding: 10px;
+}
+.products-details .item-price-box .item-price-total-box .price-box h4{
+    padding: 10px 0;
+}
+.products-details .item-price-box .item-price-total-box .price-box h4 span{
+    font-weight: 500;
+}
+.products-details .item-price-box .item-price-total-box .total-price-box{
+    text-align: left;
+    padding: 10px;
+}
+.products-details .item-price-box .item-price-total-box .total-price-box h4{}
+.products-details .item-price-box .item-price-total-box .total-price-box span{}
+
+
+
+/* products section css end*/
+.terms{
+    padding-top: 30px;
+}
+.terms .temrs-headline{}
+.terms .temrs-headline h4{
+    padding-bottom: 10px;
+}
+.terms .temrs-headline p{}
+
+
+    </style>
+</head>
+<body>
+    <header class="company-information">
+        <div class="container">
+            <div class="row">
+                <table>
+                    <tr>
+                        <th style="width: 60%;">
+                            <div class="company-logo" style="text-align: left;">
+                                <img src="./gprojukti.png" alt="Grpojukti-logo" style="width: 40%;">
+                            </div>
+                        </th>
+                        <th style="width: 40%;">
+                                <div class="company-description">
+                                    <div class="company-name">
+                                        <h1>Gprojukti.com</h1>
+                                    </div>
+                                    <div class="company-details">
+                                        <h4>Address:<span style="font-weight: 500;"> 585, polashnogor , mirpur-11 dhaka 1216</span></h4>
+                                        <h4>Number:<span style="font-weight: 500;"> +880000000</span></h4>
+                                        <h4>Email:<span style="font-weight: 500;"> email@email.com</span></h4>
+                                    </div>
+                                </div>
+                        </th>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </header>
+    <section class="inoice-title">
+        <div class="container">
+            <div class="row">
+                    <div class="title">
+                        <h1>INVOICE</h1>
+                    </div>
+            </div>
+        </div>
+    </section>
+   <section class="order-information">
+       <div class="container">
+           <div class="row">
+            <table>
+                <tr>
+                    <td style="width: 62%;">
+                        <div class="customer-details">
+                            <h4>Name:<span> sagor</span></h4>
+                            <h4>Address:<span> 585, polashnogor , dhaka mirpur 1216 </span></h4>
+                            <h4>Number:<span> +880000000</span></h4>
+                            <h4>Email:<span> email@email.com</span></h4>
+                        </div>
+                        
+                    </td>
+                    <td style="width: 38%;">
+                        <div class="order-details">
+                            <h4>Order Number:<span> G-250254512</span></h4>
+                            <h4>Order Date:<span> 20-10-2041</span></h4>
+                            <h4>Payment Method:<span> Cash On Delivery</span></h4>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+           </div>
+       </div>
+   </section>
+   <section class="products-details">
+       <div class="container">
+           <div class="row" style="padding:20px 0px 20px 0px;">
+           <h1>Products Details</h1>
+           </div>
+       </div>
+       <div class="container">
+           <div class="row">
+               <div class="item-details">
+                   <table>
+                       <div class="item"">
+                            <tr style="text-align: left; background-color: #000; color: #fff;">
+                                <th class="item-list-lg">Product Name</th>
+                                <th class="item-list-sm">Warranty</th>
+                                <th class="item-list-sm">Quantity</th>
+                                <th class="item-list-sm">Unit Price</th>
+                                <th class="item-list-sm">Discount</th>
+                                <th class="item-list-sm">Subtotal</th>
+                            </tr>
+                        </div>
+                        <div class="products">
+                            <tr style="text-align: left; border-bottom: 1px solid #000;">
+                                <td class="products-data item-list-lg">Dell Inspiron 15 3510 Intel Celeron N4020 15.6" HD Laptop Celeron N4020 15.6" HD Laptop</td>
+                                <td class="products-data item-list-sm">0</td>
+                                <td class="products-data item-list-sm">1</td>
+                                <td class="products-data item-list-sm">39300</td>
+                                <td class="products-data item-list-sm">0</td>
+                                <td class="products-data item-list-sm">39300</td>
+                            </tr>
+                            <tr style="text-align: left; border-bottom: 1px solid #000;">
+                                <td class="products-data item-list-lg">Dell Inspiron 15 3510 Intel Celeron N4020 15.6" HD Laptop Celeron N4020 15.6" HD Laptop</td>
+                                <td class="products-data item-list-sm">0</td>
+                                <td class="products-data item-list-sm">1</td>
+                                <td class="products-data item-list-sm">39300</td>
+                                <td class="products-data item-list-sm">0</td>
+                                <td class="products-data item-list-sm">39300</td>
+                            </tr>
+                            <tr style="text-align: left; border-bottom: 1px solid #000;">
+                                <td class="products-data item-list-lg">Dell Inspiron 15 3510 Intel Celeron N4020 15.6" HD Laptop Celeron N4020 15.6" HD Laptop</td>
+                                <td class="products-data item-list-sm">0</td>
+                                <td class="products-data item-list-sm">1</td>
+                                <td class="products-data item-list-sm">39300</td>
+                                <td class="products-data item-list-sm">0</td>
+                                <td class="products-data item-list-sm">39300</td>
+                            </tr>
+                            
+                        </div>
+                   </table>
+                 </div>
+               </div>
+               <div class="row">
+                   <div class="item-price-box">
+                       <table>
+                           <tr>
+                               <th style="width: 60%;" class="note-box">
+                                    <h4>Customer Note</h4>
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro nobis eveniet, ut, sequi error ipsum, tempore libero aspernatur ullam maiores odit quis sit. Nulla atque sit quod perferendis maxime. Inventore?</p>
+                                </th>
+                                <th style="width: 20%;" class="item-price-total-box">
+                                    <div class="price-box">
+                                        <h4>Total:</h4>
+                                        <h4>Tax Amount:</h4>
+                                    </div>
+                                    <div class="price-box">
+                                        <h4>Grand Total:</h4>
+                                        <h4>Discount:</h4>
+                                    </div>
+                                    <div class="price-box">
+                                        <h4>Net payable:</h4>
+                                        <h4>Payment:</h4>
+                                        <h4>Due Amount:</h4>
+                                        <h4>Previous Due:</h4>
+                                    </div>
+                                    <div class="total-price-box">
+                                        <h4>Total Due:</h4>
+                                    </div>
+                                </th>
+                                <th style="width: 20%;" class="item-price-total-box">
+                                    <div class="price-box" style="text-align: right;">
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                    </div>
+                                    <div class="price-box" style="text-align: right;">
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                    </div>
+                                    <div class="price-box" style="text-align: right;">
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                    </div>
+                                    <div class="total-price-box" style="text-align: right;">
+                                        <h4><span> 0 </span> <span>BDT</span></h4>
+                                    </div>
+                                </th>
+                           </tr>
+                       </table>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section class="terms">
+       <div class="container">
+           <div class="row">
+               <div class="temrs-headline">
+                   <h4>Terms and conditions</h4>
+                   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae quo quibusdam sequi incidunt illum distinctio vel sint, autem neque aliquid nobis? Consequuntur, tempore perspiciatis suscipit quos omnis culpa magni perferendis?</p>
+               </div>
+           </div>
+       </div>
+   </section>
+</body>
+</html>
